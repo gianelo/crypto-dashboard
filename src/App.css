@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+    background-color: #101117;
+    font-family: system-ui;
+    color: #ddde;
+}
+
+main { 
+    padding: 50px;
+    width: 100%;
+}
+
+.logo { 
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+
+}
+.logo img {
+    width: 50px;
+}
+
+.logo section p {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+    color: #a6a8b3;
+}
+.logo section p.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #a6a8b3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+footer p, a {
+    color: #a6a8b3;
+}
+
+.rss-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.rss-email {
+    text-decoration: none;
+}
+
+section.main-layout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 1rem;
+    background-color: #14151d;
+    padding: 20px;
+}
+
+.cryptoTable{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: #b3d1ff;
+}
